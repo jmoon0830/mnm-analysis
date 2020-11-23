@@ -9,7 +9,7 @@ This repo contains all code involving transforming M&M Headgear's Data into read
 
 ## Part 1: Cleaning the data
 The csv file needs to be cleaned as it contains null rows, null values, unlabeled sales, etc.
-![screenshot](x)
+![screenshot](static/images/unclean_csv_screenshot.png)
 
 Let's first rename the unnamed column and remove the first index row.
 ```
@@ -38,16 +38,22 @@ inventory_df.dropna(subset=['Type'],inplace=True)
 
 ## Part 2: Chart and Analysis
 *Sales over Time*
-![screenshot](x)
+![screenshot](static/images/analysis_charts/Sales_2020.png)
 
 *Top 10 Customer Sales*
-![screenshot](x)
+![screenshot](static/images/analysis_charts/Top_Customer_Sales.png)
 
 *Top 10 Backordering Customers*
-![screenshot](x)
+![screenshot](static/images/analysis_charts/Top_Customer_Backorders)
 
 *Comparison between Top Customer Sales and their Backorders*
-![screenshot](x)
+![screenshot](static/images/analysis_charts/Top_Customers_Sales_vs_Backorder.png)
 
 *Top 10 Items*
-![screenshot](x)
+![screenshot](static/images/analysis_charts/Top_10_Items.png)
+
+## Post
+
+## Technologies
+- Python (Jupyter Notebook)
+- Matplotlib
