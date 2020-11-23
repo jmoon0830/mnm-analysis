@@ -39,22 +39,27 @@ inventory_df.dropna(subset=['Type'],inplace=True)
 
 ## Part 2: Chart and Analysis
 *Sales over Time*
+
 The sales seem to be highest during the summer months. As a beauty supply company that focuses on wig-making, M&M Headgear might find this to be a result of the customers' increased interests during the summer as people tend to go outside more and go on vacations. Whereas during the winter season, customers would care to stay in homes more.
 ![screenshot](static/images/analysis_charts/Sales_2020.png)
 
 *Top 10 Customer Sales*
+
 A simple chart to see who the company's top customers are and visualize the difference. M&M Headgear may want to know who to show more customer care for.
 ![screenshot](static/images/analysis_charts/Top_Customer_Sales.png)
 
 *Top 10 Backordering Customers*
+
 A simple chart to see who the company's top backordering customers are. M&M Headgear may want to minimize the amount of backorders from these customers.
 ![screenshot](static/images/analysis_charts/Top_Customer_Backorders.png)
 
 *Comparison between Top Customer Sales and their Backorders*
+
 This chart seeks to compare customer sales to their backorders. As the companies who makes more sales may make more backorders, we want to make sure this correlation exists and make sure a customer who doesn't make many orders doesn't have an unusual high amount of backorders.
 ![screenshot](static/images/analysis_charts/Top_Customers_Sales_vs_Backorder.png)
 
 *Top 10 Items*
+
 M&M Headgear can see the top 10 items by sales. M&M Headgear may be able to find what about these items make them popular and how they can maximize revenue
 ![screenshot](static/images/analysis_charts/Top_10_Items.png)
 
